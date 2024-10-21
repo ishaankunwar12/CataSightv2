@@ -72,7 +72,7 @@ if page == "**Home**":
     st.header("About the web app")
     st.write("The Web App helps predict, from the image, whether or not the user has cataract.")
 
-    tab1, tab2 = st.tabs(["Image Upload 👁️", "Camera Upload 📷"])
+    tab1, tab2 = st.tabs(["Image Upload 👁️", "Camera Upload 📷 (coming soon in future)"])
     with tab1:
         image = st.file_uploader(label="Upload an image", accept_multiple_files=False, help="Upload an image to classify them")
         if image:
