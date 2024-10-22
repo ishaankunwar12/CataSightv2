@@ -8,6 +8,8 @@ from PIL import Image
 import pickle
 from keras.layers import GlobalAveragePooling2D
 from keras.models import Model
+
+image_size = (224, 224)
 CSS_STYLE = """
     <style>
     .stApp {
