@@ -10,6 +10,13 @@ from keras.layers import GlobalAveragePooling2D
 from keras.models import Model
 
 image_size = (224, 224)
+
+image_name = "user_eye.png"
+
+PREDICTION_LABELS = ["Cataract", "Normal"]
+
+PREDICTION_LABELS.sort()
+
 CSS_STYLE = """
     <style>
     .stApp {
