@@ -1,5 +1,4 @@
-# CataSightv2
-Second version of my app CataSight
+
 # CataractDetection
 This project is about identifying cataracts from fundus images of the eye
 
@@ -7,6 +6,7 @@ This project is about identifying cataracts from fundus images of the eye
 
 ## :closed_book: Table of Contents :closed_book:
 - [Description](#-description)
+- [Purpose](#-purpose)
 - [App Creation Process](#-app-creation-process)
 - [How to access](#-how-to-access)
 - [Future endeavors](#-future-endeavors)
@@ -18,7 +18,14 @@ This project is about identifying cataracts from fundus images of the eye
 
 This app is a **cataract detection** software meant to identify cataracts based on fundus images uploaded to the app. The purpose of the app is reduce the workload of ophthalmologists, who currently must hand-label fundus images of eye lens as "Cataract" or "Normal." This app will greatly aid rural areas, where there is often only **1** ophthalmologist per **100,000** patients! This app would allow ophthalmologists, or patients themselves, to use an **ophthalmoscope**, which is attachable to a phone camera, to take a picture of patients' eyes. These pictures would then be uploaded to the app, which will return a diagnosis as well as the probability of the accuracy of the diagnosis.
 
+## Purpose
 
+Around 33% impaired vision cases and 51% of blind cases are caused by cataract, an eye ailment caused by
+protein clumping in the lens area of the eye, reducing transparency. Fundus images are pictures of the back of the
+eye taken with an ophthalmoscope. Currently, ophthalmologists must repetitively hand label fundus images as
+“Cataract” and “Normal.” In some developing areas, there is only 1 ophthalmologist for 10,000 patients,
+revealing the need for technological assistance, hence why I made an application that diagnoses cataract from
+fundus images to aid resource strapped ophthalmologists.
 
 ## App Creation Process 
 
